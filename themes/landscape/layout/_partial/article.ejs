@@ -24,12 +24,7 @@
     </div>
     <footer class="article-footer">
 	<%- partial('post/jiathis')%>
-     <!--<a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('分享') %></a>
-       <% if (post.comments && config.duoshuo_shortname){ %>
-        <a href="<%- post.permalink %>#comments" class="article-comment-link"><%= __('评论') %></a>
-      <% } %>-->
       <%- partial('post/tag') %>
-	  
     </footer>
   </div>
   <% if (!index){ %>
@@ -37,7 +32,7 @@
   <% } %>
 </article>
 
-<% if (!index && post.comments && config.duoshuo_shortname){ %>
+<% if (!index && post.comments && theme.duoshuo_shortname){ %>
 <section id="comments">
  <!-- 多说评论框 start -->
 	<div class="ds-thread" data-thread-key="<%= post.path %>" data-title="<%= post.title %>" data-url="<%= page.permalink %>"></div>
