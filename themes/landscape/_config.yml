@@ -1,18 +1,21 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
+  主页: /
+  归档: /archives
+  新浪微博: http://weibo.com/aluomaidi 
+  github: https://github.com/aluomaidi
+  
+#rss: /atom.xml
 
 # Content
-excerpt_link: Read More
+excerpt_link: 阅读全文
 fancybox: true
 
 # Sidebar
 sidebar: right
 widgets:
 - category
-- tag
+#- tag
 - tagcloud
 - archive
 - recent_posts
@@ -25,7 +28,7 @@ index_widgets:
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 
 # Miscellaneous
 google_analytics:
@@ -34,3 +37,5 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+baidu_tongji: true
