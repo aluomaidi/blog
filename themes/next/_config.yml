@@ -232,7 +232,11 @@ auto_excerpt:
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # ---------------------------------------------------------------
-
+#local search
+search:
+  path: search.xml
+  field: post
+  
 # MathJax Support
 mathjax:
   enable: false
@@ -247,7 +251,7 @@ baidu_analytics: 300c150c40d3b1605f90a80256f3afc8
 
 # Duoshuo ShortName
 duoshuo_shortname: aluomaidi
-
+duoshuo_hotartical: true
 # Disqus
 #disqus_shortname:
 
