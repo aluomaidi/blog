@@ -182,8 +182,9 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  云栖社区: https://yq.aliyun.com/
   成神之路: http://www.hollischuang.com/
+  并发编程网: http://ifeve.com/
+  云栖社区: https://yq.aliyun.com/
   董的博客: http://dongxicheng.org/
   美团Blog: http://tech.meituan.com/
     
