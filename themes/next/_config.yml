@@ -123,7 +123,7 @@ font:
 social:
     GitHub: https://github.com/aluomaidi
     Weibo: http://weibo.com/aluomaidi
-    #Twitter: https://twitter.com/aluomaidi 
+    Zhihu: https://www.zhihu.com/people/aluomaidi
   #LinkLabel: Link
 
 
@@ -139,7 +139,6 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
-
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
